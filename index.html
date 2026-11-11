@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080b16">
+  <title>JD AI Universe</title>
+  <meta name="description" content="A futuristic creative workspace for prompts, ideas, code and mini games.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient a1"></div><div class="ambient a2"></div>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">JD</span><span>AI <b>UNIVERSE</b></span></a>
+    <span class="status"><i></i> CREATIVE SYSTEM ONLINE</span>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">YOUR PERSONAL CREATIVE CONTROL ROOM</div>
+      <h1>Imagine more.<br><span>Create without limits.</span></h1>
+      <p>One space for your ideas, prompts, voice experiments and creative tools.</p>
+      <a class="primary" href="#workspace">Explore workspace <span>↘</span></a>
+      <div class="orb-wrap"><div class="orb"><div class="orb-core"></div></div><span class="orbit-label l1">IDEAS</span><span class="orbit-label l2">CREATE</span><span class="orbit-label l3">EXPLORE</span></div>
+    </section>
+
+    <section id="workspace" class="workspace">
+      <div class="section-head"><div><div class="eyebrow">THE WORKSPACE</div><h2>Choose your universe</h2></div><span class="count">01 — 05</span></div>
+      <div class="grid">
+        <article class="tool-card featured" data-tool="prompt">
+          <div class="card-icon">✦</div><div class="tag">READY TO USE</div>
+          <h3>Prompt Studio</h3><p>Build detailed prompts for images, videos and creative projects.</p><button class="open-tool">Launch studio ↗</button>
+        </article>
+        <article class="tool-card" data-tool="voice">
+          <div class="card-icon">◉</div><div class="tag">BROWSER FEATURE</div>
+          <h3>Voice Buddy</h3><p>Try speech recognition and text-to-speech in your browser.</p><button class="open-tool">Open voice ↗</button>
+        </article>
+        <article class="tool-card" data-tool="video">
+          <div class="card-icon">▶</div><div class="tag">CREATIVE PLANNER</div>
+          <h3>Video Director</h3><p>Turn a story idea into a scene-by-scene video plan.</p><button class="open-tool">Open director ↗</button>
+        </article>
+        <article class="tool-card" data-tool="code">
+          <div class="card-icon">&lt;/&gt;</div><div class="tag">CODE HELPER</div>
+          <h3>Code Lab</h3><p>Start a clean HTML page and copy a starter template.</p><button class="open-tool">Open code lab ↗</button>
+        </article>
+        <article class="tool-card" data-tool="game">
+          <div class="card-icon">⌁</div><div class="tag">MINI GAME</div>
+          <h3>Game Zone</h3><p>Take a quick break with a tiny number challenge.</p><button class="open-tool">Play game ↗</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel" id="panel" hidden>
+      <div class="panel-head"><div><div class="eyebrow">JD AI UNIVERSE / TOOL</div><h2 id="panel-title">Prompt Studio</h2></div><button id="close-panel" class="close">✕</button></div>
+      <div id="panel-content"></div>
+    </section>
+  </main>
+  <footer><span>JD AI UNIVERSE</span><span>Built for ideas • Designed for mobile</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
